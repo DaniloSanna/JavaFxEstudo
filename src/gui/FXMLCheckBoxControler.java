@@ -24,11 +24,8 @@ public class FXMLCheckBoxControler implements Initializable{
     @FXML
     private void handleCheckBoxButtonAction(ActionEvent e) {
     	System.out.println("Valor de PHP: " + cbPhp.selectedProperty().getValue() );
-    	
     	System.out.println("Valor de Java: " + cbJava.selectedProperty().getValue() );
     }
-    
-    
     
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
