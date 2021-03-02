@@ -1,0 +1,5 @@
+Entire Window is STAGE!
+Inside Stage/Window (content) is SCENE!
+
+before scene works, its need a layout (pane).
+And its scene need be set in Stage.
