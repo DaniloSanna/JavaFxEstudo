@@ -22,12 +22,9 @@ public class Main3 extends Application {
 		button = new Button();
 		button.setText("Click me");
 
-		button.setOnAction(new EventHandler<ActionEvent>() {
-			@Override
-			public void handle(ActionEvent arg0) {
-				System.out.println("Anonimous inner class");
-				
-			}
+		button.setOnAction(e -> {
+			System.out.println("Anonimous inner class");
+			System.out.println("multiple code lines in this lambda");
 		});
 		
 		StackPane layout = new StackPane();
