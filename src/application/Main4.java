@@ -1,3 +1,7 @@
+/*
+ * Switching scenes
+ */
+
 package application;
 
 import javafx.application.Application;
