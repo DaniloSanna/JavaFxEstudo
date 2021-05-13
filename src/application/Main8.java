@@ -45,7 +45,8 @@ public class Main8 extends Application {
 		BorderPane boderPane = new BorderPane();
 		boderPane.setTop(topMenu);
 		boderPane.setLeft(leftMenu);
-					
+		
+				
 		Scene scene = new Scene(boderPane,300,250);
 		window.setScene(scene);
 		window.show();
